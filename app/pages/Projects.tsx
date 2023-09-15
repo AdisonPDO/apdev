@@ -24,7 +24,7 @@ export default function Projects() {
                     </div>
                     <div>
                         <p>
-                            Refonte intégrale d'une application mobile (1 000 000 d'utilisateurs) pour Perfumist.
+                            Refonte intégrale d&apos;une application mobile (1 000 000 d&apos;utilisateurs) pour Perfumist.
                         </p>
                     </div>
 
@@ -47,7 +47,7 @@ export default function Projects() {
                     </div>
                     <div className='w-full flex justify-center'>
                         <p className='w-1/2 text-center mx-auto'>
-                            Maintenance et ajout de fonctionnalités sur l'application mobile iOS Agrove. Application connectée à des capteurs IoT pour la mesure de données agronomiques tel que la température, l'humidité, la luminosité, etc.
+                            Maintenance et ajout de fonctionnalités sur l&apos;application mobile iOS Agrove. Application connectée à des capteurs IoT pour la mesure de données agronomiques tel que la température, l&apos;humidité, la luminosité, etc.
                         </p>
                     </div>
 
@@ -70,7 +70,7 @@ export default function Projects() {
                     </div>
                     <div className='w-full flex justify-center'>
                         <p className='w-1/2 text-center mx-auto'>
-                            Refonte intégrale de l'application mobile Agrove en React Native.
+                            Refonte intégrale de l&apos;application mobile Agrove en React Native.
                         </p>
                     </div>
 
@@ -93,7 +93,7 @@ export default function Projects() {
                     </div>
                     <div className='w-full flex justify-center'>
                         <p className='w-1/2 text-center mx-auto'>
-                            Création d'une application mobile b to b pour commander du matériel de padel et consulter les stocks.
+                            Création d&apos;une application mobile b to b pour commander du matériel de padel et consulter les stocks.
                             Application hybrid et connectée a une api Prestashop et un backend firebase.
                         </p>
                     </div>
