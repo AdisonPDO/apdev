@@ -57,6 +57,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
+                    
                     {/* Row 1 */}
                     <div className='w-full flex flex-col sm:flex-row'>
                     {/** Agrove V2*/}
