@@ -9,7 +9,6 @@ export default function Projects() {
     return (
         <>
             <div className="bg-red text-center py-16">
-
                 {/** Title */}
                 <h1 className="text-5xl text-white font-bold mb-4">PROJETS</h1>
 
