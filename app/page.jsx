@@ -13,10 +13,9 @@ const ParallaxContainer = dynamic(
     }
 );
 export const metadata = {
-    title:
-        "Home 2 Main Demo MultiPage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    title: "Développement de sites web, applications mobiles et SEO à Perpignan",
     description:
-        "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+        "Expert en création de sites web modernes, développement d'applications mobiles sur mesure et optimisation SEO pour améliorer votre visibilité en ligne à Perpignan et au-delà.",
 };
 export default function Home2MainDemoMultiPage() {
     return (
