@@ -23,14 +23,14 @@ export default function MainAboutPage1() {
                   <Link href={`/`} className="logo">
                     <Image
                       src="/assets/images/logo-white.svg"
-                      alt="Your Company Logo"
+                      alt="Logo Adison ApDev"
                       width={105}
                       height={34}
                       className="logo-white"
                     />
                     <Image
                       src="/assets/images/logo-dark.svg"
-                      alt="Your Company Logo"
+                      alt="Logo Adison ApDev"
                       width={105}
                       height={34}
                       className="logo-dark"

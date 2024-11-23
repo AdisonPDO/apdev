@@ -15,14 +15,14 @@ export default function Header1({ links }) {
         <Link href="/" className="logo">
           <Image
             src="/assets/images/logo-dark.svg"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={105}
             height={34}
             className="light-mode-logo"
           />
           <Image
             src="/assets/images/logo-white.svg"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={105}
             height={34}
             className="dark-mode-logo"

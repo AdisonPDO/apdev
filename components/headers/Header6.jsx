@@ -15,14 +15,14 @@ export default function Header6({ links }) {
         <a href="#top" className="logo">
           <Image
             src="/assets/images/demo-fancy/logo-dark.png"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={154}
             height={35}
             className="light-mode-logo"
           />
           <Image
             src="/assets/images/demo-fancy/logo-white.png"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={154}
             height={35}
             className="dark-mode-logo"

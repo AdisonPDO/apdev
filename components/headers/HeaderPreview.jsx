@@ -62,7 +62,7 @@ export default function HeaderPreview() {
         <Link href={`/`} className="logo">
           <Image
             src="/assets/images/logo-dark.svg"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={105}
             height={34}
           />

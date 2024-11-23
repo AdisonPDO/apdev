@@ -14,7 +14,7 @@ export default function Header10({ links }) {
         <a href="#top" className="logo font-alt">
           <Image
             src="/assets/images/demo-strong/logo-white.svg"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={176}
             height={34}
           />

@@ -23,14 +23,14 @@ export default function Header2({ links }) {
         <Link href="/" className="logo font-alt">
           <Image
             src="/assets/images/logo.png"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={105}
             height={34}
             className="light-mode-logo"
           />
           <Image
             src="/assets/images/logo-white.svg"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={105}
             height={34}
             className="dark-mode-logo"

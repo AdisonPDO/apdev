@@ -13,7 +13,7 @@ export default function Header5({ links }) {
         <a href="#top" className="logo font-alt">
           <Image
             src="/assets/images/demo-elegant/logo-white.svg"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={170}
             height={12}
           />

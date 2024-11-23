@@ -14,14 +14,14 @@ export default function Header4({ links }) {
         <a href="top" className="logo">
           <Image
             src="/assets/images/demo-corporate/logo-dark.svg"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={106}
             height={36}
             className="light-mode-logo"
           />
           <Image
             src="/assets/images/demo-corporate/logo-white.svg"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={106}
             height={36}
             className="dark-mode-logo"

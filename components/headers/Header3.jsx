@@ -15,7 +15,7 @@ export default function Header3({ links }) {
         <a href="#top" className="logo font-alt">
           <Image
             src="/assets/images/demo-brutalist/logo-white.svg"
-            alt="Your Company Logo"
+            alt="Logo Adison ApDev"
             width={170}
             height={12}
           />

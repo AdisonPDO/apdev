@@ -29,7 +29,7 @@ export default function Footer1({ dark = false }) {
                 width={105}
                 height={34}
                 className="light-mode-logo"
-                alt="Your Company Logo"
+                alt="Logo Adison ApDev"
               />
 
               <Image
@@ -37,7 +37,7 @@ export default function Footer1({ dark = false }) {
                 width={105}
                 height={34}
                 className="dark-mode-logo"
-                alt="Your Company Logo"
+                alt="Logo Adison ApDev"
               />
             </Link>
             <p>

@@ -20,7 +20,7 @@ export default function Footer6() {
           <div className="mb-30">
             <Image
               src="/assets/images/demo-fancy/logo-white.png"
-              alt="Your Company Logo"
+              alt="Logo Adison ApDev"
               width={154}
               height={35}
             />

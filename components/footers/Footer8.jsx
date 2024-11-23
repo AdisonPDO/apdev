@@ -22,14 +22,14 @@ export default function Footer8() {
             <div className="mb-30">
               <Image
                 src="/assets/images/demo-slick/logo-dark.svg"
-                alt="Your Company Logo"
+                alt="Logo Adison ApDev"
                 width={106}
                 height={36}
                 className="light-mode-logo"
               />
               <Image
                 src="/assets/images/demo-slick/logo-white.svg"
-                alt="Your Company Logo"
+                alt="Logo Adison ApDev"
                 width={106}
                 height={36}
                 className="dark-mode-logo"

@@ -10,7 +10,7 @@ import Image from "next/image";
 export const metadata = {
     title: "Développement de sites web, applications mobiles et SEO à Perpignan",
     description:
-        "Expert en création de sites web modernes, développement d'applications mobiles sur mesure et optimisation SEO pour améliorer votre visibilité en ligne à Perpignan et au-delà.",
+        "Expert en création de sites web modernes, développement d'applications mobiles sur mesure et optimisation SEO pour améliorer votre visibilité en ligne.",
 };
 export default function Home2({ onePage = false, dark = false }) {
   return (
