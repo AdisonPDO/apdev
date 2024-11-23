@@ -143,49 +143,40 @@ export const portfolios1 = [
 export const portfolios2 = [
   {
     id: 15,
-    imageUrl: "/assets/images/demo-bold/portfolio/1.jpg",
-    title: "Medium Scene",
+    imageUrl: "/assets/images/mobile/xpadel-score.jpg",
+    title: "XPadel Score",
     description:
-      "Lorem ipsum dolor siter amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua.",
+      "Application de padel pour WatchOS & iOS : permet de choisir le type de partie, de marquer le score, d’analyser chaque coup et leur puissance grâce à la montre, et d’afficher les statistiques détaillées sur l’iPhone.",
     link: "bold-portfolio-single.html",
-    categories: ["development"],
+    categories: ["mobile"],
   },
   {
     id: 16,
-    imageUrl: "/assets/images/demo-bold/portfolio/2.jpg",
-    title: "Rise of Design",
+    imageUrl: "/assets/images/mobile/perfumist.jpg",
+    title: "Perfumist",
     description:
-      "Proin elementum ipsum vel mauris pellentesque accumsan. Nulla in erat ligula vivamus sed egestas elit, sit amet convallis metus.",
+      "Perfumist est une application pour découvrir de nouvelles fragrances, consulter des avis détaillés, et obtenir des recommandations personnalisées. Explorez un large catalogue de parfums, créez votre collection personnelle et comparez les prix. Partagez vos impressions avec la communauté et suivez les tendances du marché.",
     link: "bold-portfolio-single.html",
-    categories: ["branding"],
+    categories: ["mobile"],
   },
   {
     id: 17,
-    imageUrl: "/assets/images/demo-bold/portfolio/3.jpg",
-    title: "Visual Stranger",
+    imageUrl: "/assets/images/mobile/rp.jpg",
+    title: "Raquette Padel Pro",
     description:
-      "Suspendisse scelerisque convallis nibh. Maecenas bibendum porta mattis. Donec quis nibh porta dolor ultrices bibendum vel quis leo.",
+      "Application pro pour revendeur de matériel de padel : permet de consulter les produits, de vérifier les stocks et de passer des commandes. Un côté administrateur permet de gérer les clients et d’afficher les tarifs de manière personnalisée.",
     link: "bold-portfolio-single.html",
-    categories: ["design", "development"],
+    categories: ["mobile"],
   },
   {
     id: 18,
-    imageUrl: "/assets/images/demo-bold/portfolio/4.jpg",
-    title: "Amplitude",
+    imageUrl: "/assets/images/mobile/ludocars.jpg",
+    title: "Ludocars",
     description:
-      "Aliquam tempus nunc nec rutrum malesuada. Proin pulvinar augue quis pharetra vulputate. Sed lacinia convallis orci vitae condimentum.",
+      "Application de location de véhicule pour iOS et Android : permet de suivre les locations en temps réel, d’envoyer des photos de l’état des lieux à l’entrée et à la sortie, de signer les contrats de début et de fin de location, et de déclarer les sinistres. Un calendrier pour l’administrateur permet de voir les locations en temps réel.",
     link: "bold-portfolio-single.html",
-    categories: ["branding", "design"],
-  },
-  {
-    id: 19,
-    imageUrl: "/assets/images/demo-bold/portfolio/5.jpg",
-    title: "Super Awards",
-    description:
-      "Praesent est lacus, fringilla et justo vel, scelerisque aliquet elit. Mauris malesuada eleifend sapien irere semper a orci ac turpis luctus.",
-    link: "bold-portfolio-single.html",
-    categories: ["design", "development"],
-  },
+    categories: ["mobile"],
+  }
 ];
 
 export const portfolios3 = [

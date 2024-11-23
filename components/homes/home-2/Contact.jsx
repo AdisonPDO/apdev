@@ -7,36 +7,36 @@ export default function Contact({ heading }) {
         <div className="col-lg-5 mb-md-70">
           <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-50 mb-md-30">
             <span className="text-outline-2">
-              {heading ? heading : "Contact Me"}
+              {heading ? heading : "Contactez moi"}
             </span>
             <span className="text-outline-1">
-              {heading ? heading : "Contact Me"}
+              {heading ? heading : "Contactez moi"}
             </span>
             <span className="text-outline">
-              {heading ? heading : "Contact Me"}
+              {heading ? heading : "Contactez moi"}
             </span>
           </h2>
           <p className="section-text mb-60 mb-md-40 mb-sm-30">
-            <span className="section-title-inline">How?</span> Have a question?
-            Just drop me a line via email or make a WhatsApp call. I am
-            available for new projects and interesting ideas.
+            <span className="section-title-inline">Comment?</span> Vous avez une question ?
+            Envoyez-moi simplement un message par e-mail ou linkedin. Je suis
+            disponible pour de nouveaux projets et des idées intéressantes.
           </p>
           <div>
             <a
-              href="mailto:ibthemes21@gmail.com"
+              href="mailto:adison.apdev@gmail.com"
               className="link-hover-anim align-middle"
               data-link-animate="y"
             >
-              ibthemes21@gmail.com
+              adison.apdev@gmail.com
             </a>
           </div>
           <div>
             <a
-              href="tel:+18376528800"
+              href="tel:+33627521624"
               className="link-hover-anim align-middle"
               data-link-animate="y"
             >
-              +1 837 652 8800
+              +33 6 27 52 16 24
             </a>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Contact({ heading }) {
             {/* Name */}
             <div className="form-group d-block d-md-flex align-items-center">
               <label htmlFor="name" className="mb-0 mb-sm-10 me-3">
-                Your Name
+                Votre nom
               </label>
               <div className="flex-grow-1">
                 <input
@@ -58,7 +58,7 @@ export default function Contact({ heading }) {
                   name="name"
                   id="name"
                   className="input-sm form-control underline text-md-center"
-                  placeholder="Enter your name here"
+                  placeholder="Entrez votre nom ici"
                   pattern=".{3,100}"
                   required
                   aria-required="true"
@@ -68,7 +68,7 @@ export default function Contact({ heading }) {
             {/* Email */}
             <div className="form-group d-block d-md-flex align-items-center">
               <label htmlFor="email" className="mb-0 mb-sm-10 me-3">
-                Email Address
+                Adresse email
               </label>
               <div className="flex-grow-1">
                 <input
@@ -76,7 +76,7 @@ export default function Contact({ heading }) {
                   name="email"
                   id="email"
                   className="input-sm form-control underline text-md-center"
-                  placeholder="Enter your email here"
+                  placeholder="Entrez votre email ici"
                   pattern=".{5,100}"
                   required
                   aria-required="true"
@@ -86,14 +86,14 @@ export default function Contact({ heading }) {
             {/* Message */}
             <div className="form-group">
               <label htmlFor="message" className="mb-sm-10">
-                What’s your question?
+                Quelle est votre question ?
               </label>
               <textarea
                 name="message"
                 id="message"
                 className="input-sm form-control underline"
                 style={{ height: 120 }}
-                placeholder="Enter your message here"
+                placeholder="Entrez votre message ici"
                 defaultValue={""}
               />
             </div>
@@ -107,9 +107,9 @@ export default function Contact({ heading }) {
                   aria-controls="result"
                 >
                   <span className="btn-ellipse-inner">
-                    <span className="btn-ellipse-unhovered">Send Message</span>
+                    <span className="btn-ellipse-unhovered">Envoyer</span>
                     <span className="btn-ellipse-hovered" aria-hidden="true">
-                      Send Message
+                      Envoyer
                     </span>
                   </span>
                 </button>
@@ -118,9 +118,9 @@ export default function Contact({ heading }) {
                 {/* Inform Tip */}
                 <div className="form-tip pt-30 pt-sm-20">
                   <i className="icon-info size-16" />
-                  All the fields are required. By sending the form you agree to
-                  the <a href="#">Terms &amp; Conditions</a> and{" "}
-                  <a href="#">Privacy Policy</a>.
+                  Tous les champs sont obligatoires. En envoyant le formulaire, vous acceptez
+                  les <a href="#">Conditions</a> et{" "}
+                  <a href="#">Politique de confidentialité</a>.
                 </div>
               </div>
             </div>

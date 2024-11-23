@@ -25,9 +25,9 @@ export default function Home2({ onePage = false, dark = false }) {
                 <Image
                   width={800}
                   height={1095}
-                  src="/assets/images/demo-bold/section-image-1.jpg"
+                  src="/assets/images/me.jpg"
                   className="w-100 wow scaleOutIn"
-                  alt="Image Description"
+                  alt="Adison pereira"
                 />
               </div>
             </div>
@@ -119,9 +119,7 @@ export default function Home2({ onePage = false, dark = false }) {
                 <span className="text-outline">Services</span>
               </h2>
               <p className="section-text mb-60 mb-md-40 mb-sm-30">
-                <span className="section-title-inline">Why?</span> I use the
-                power of design to solve complex problems and cultivate business
-                solutions.
+                <span className="section-title-inline">Pourquoi?</span> J'utilise la puissance des technologies web et mobiles pour résoudre des problèmes complexes et proposer des solutions adaptées aux besoins des entreprises.
               </p>
               <div className="local-scroll">
                 {onePage ? (
@@ -133,31 +131,31 @@ export default function Home2({ onePage = false, dark = false }) {
                       data-link-animate="y"
                     >
                       <span className="link-strong link-strong-unhovered">
-                        Request a quote
+                        Demander un devis
                       </span>
                       <span
                         className="link-strong link-strong-hovered"
                         aria-hidden="true"
                       >
-                        Request a quote
+                        Demander un devis
                       </span>
                     </a>
                   </>
                 ) : (
                   <>
                     <Link
-                      href={`/bold-contact${dark ? "-dark" : ""}`}
+                      href={`/contact${dark ? "-dark" : ""}`}
                       className="link-hover-anim underline align-middle"
                       data-link-animate="y"
                     >
                       <span className="link-strong link-strong-unhovered">
-                        Request a quote
+                        Demander un devis
                       </span>
                       <span
                         className="link-strong link-strong-hovered"
                         aria-hidden="true"
                       >
-                        Request a quote
+                        Demander un devis
                       </span>
                     </Link>
                   </>
@@ -196,7 +194,7 @@ export default function Home2({ onePage = false, dark = false }) {
       >
         <Portfolio />
       </section>
-      <hr
+        {/*<hr
         className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
       />
       <section
@@ -217,7 +215,7 @@ export default function Home2({ onePage = false, dark = false }) {
       </section>
       <hr
         className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
-      />
+      />*/}
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""

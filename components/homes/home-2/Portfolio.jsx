@@ -4,10 +4,10 @@ import { portfolios2 } from "@/data/portfolio";
 import Image from "next/image";
 import Link from "next/link";
 const filters = [
-  { name: "All works", category: "all" },
-  { name: "Branding", category: "branding" },
-  { name: "Design", category: "design" },
-  { name: "Development", category: "development" },
+  { name: "Tous", category: "all" },
+  { name: "Vitrine", category: "simple" },
+  { name: "E-commerce", category: "ecommerce" },
+  { name: "Mobile", category: "mobile" },
 ];
 
 export default function Portfolio({ desc }) {
@@ -30,14 +30,14 @@ export default function Portfolio({ desc }) {
       <div className="row mb-90 mb-md-40">
         <div className="col-lg-5 mb-md-30">
           {desc ? (
-            <p className="section-text mb-0">
-              <span className="section-title-inline">Hey!</span> Explore
-              cutting-edge solutions that elevate brands and engage audiences.
-            </p>
+              <p className="section-text mb-0">
+                <span className="section-title-inline">Bonjour !</span> Découvrez des solutions innovantes pour
+                développer votre présence en ligne, attirer vos clients et renforcer votre marque.
+              </p>
           ) : (
-            <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-0">
-              <span className="text-outline">Works</span>
-            </h2>
+              <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-0">
+                <span className="text-outline">Projets</span>
+              </h2>
           )}
         </div>
         <div className="col-lg-7 pb-20 pb-md-0 d-flex align-items-end">
@@ -98,13 +98,13 @@ export default function Portfolio({ desc }) {
                         data-link-animate="y"
                       >
                         <span className="link-strong link-strong-unhovered">
-                          View Project
+                          Voir le projet
                         </span>
                         <span
                           className="link-strong link-strong-hovered"
                           aria-hidden="true"
                         >
-                          View Project
+                          Voir le projet
                         </span>
                       </Link>
                     </div>
@@ -127,13 +127,13 @@ export default function Portfolio({ desc }) {
                         data-link-animate="y"
                       >
                         <span className="link-strong link-strong-unhovered">
-                          View Project
+                          Voir le projet
                         </span>
                         <span
                           className="link-strong link-strong-hovered"
                           aria-hidden="true"
                         >
-                          View Project
+                          Voir le projet
                         </span>
                       </Link>
                     </div>
