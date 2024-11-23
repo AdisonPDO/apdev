@@ -1,14 +1,17 @@
 import React from "react";
 import Experience from "./Experience";
-import Awards from "./Awards";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
-import Testimonials from "./Testimonials";
-import Blog from "./Blog";
 import Contact from "./Contact";
 import Faq from "./Faq";
 import Link from "next/link";
 import Image from "next/image";
+
+export const metadata = {
+    title: "Développement de sites web, applications mobiles et SEO à Perpignan",
+    description:
+        "Expert en création de sites web modernes, développement d'applications mobiles sur mesure et optimisation SEO pour améliorer votre visibilité en ligne à Perpignan et au-delà.",
+};
 export default function Home2({ onePage = false, dark = false }) {
   return (
     <>
