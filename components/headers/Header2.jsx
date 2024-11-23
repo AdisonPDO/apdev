@@ -22,7 +22,7 @@ export default function Header2({ links }) {
       <div className="nav-logo-wrap local-scroll">
         <Link href="/" className="logo font-alt">
           <Image
-            src="/assets/images/logo-dark.svg"
+            src="/assets/images/logo.png"
             alt="Your Company Logo"
             width={105}
             height={34}
