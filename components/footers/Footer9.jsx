@@ -38,7 +38,7 @@ export default function Footer9() {
           {/* End Social Links */}
           <div className="col-lg-3 text-center text-lg-end local-scroll">
             <a href="#top" className="fw-top-link" onClick={scrollToTop}>
-              <span className="fw-top-link-underline">Back to top</span>
+              <span className="fw-top-link-underline">Retour en haut</span>
               <span className="icon ms-1">
                 <i className="icon-arrow-up size-17" />
               </span>

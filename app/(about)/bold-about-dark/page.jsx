@@ -51,7 +51,7 @@ export default function BoldAboutPageDark() {
                         className="wow charsAnimInLong-1"
                         data-splitting="chars"
                       >
-                        <AnimatedText text="About Me" />
+                        <AnimatedText text="Qui suis-je ?" />
                       </span>
                     </h1>
                   </div>
@@ -80,12 +80,12 @@ export default function BoldAboutPageDark() {
                       <div className="wow fadeInUp">
                         <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-50 mb-md-30">
                           <span className="text-outline-2" aria-hidden="true">
-                            My Story
+                            Mon histoire
                           </span>
                           <span className="text-outline-1" aria-hidden="true">
-                            My Story
+                            Mon histoire
                           </span>
-                          <span className="text-outline">My Story</span>
+                          <span className="text-outline">Mon histoire</span>
                         </h2>
                         <p className="section-text mb-60 mb-md-40 mb-sm-30">
                           <span className="section-title-inline">Qui?</span> The

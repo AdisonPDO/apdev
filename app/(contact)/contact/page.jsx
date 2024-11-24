@@ -16,10 +16,9 @@ const ParallaxContainer = dynamic(
   }
 );
 export const metadata = {
-  title:
-    "Bold Contact || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Contact - Développeur web et mobile à Perpignan",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+      "Besoin d’un site web, d’une application mobile ou d’un accompagnement en SEO ? Contactez-moi pour discuter de votre projet et obtenir un devis personnalisé.",
 };
 const onePage = false;
 const dark = false;
@@ -47,7 +46,7 @@ export default function BoldContactPage() {
                       className="wow charsAnimInLong-1"
                       data-splitting="chars"
                     >
-                      <AnimatedText text="Contact Me" />
+                      <AnimatedText text="Contactez moi" />
                     </span>
                   </h1>
                 </div>
@@ -68,12 +67,12 @@ export default function BoldContactPage() {
               <div className="container">
                 <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-50 mb-md-30">
                   <span className="text-outline-2" aria-hidden="true">
-                    How I work
+                    Comment je travaille
                   </span>
                   <span className="text-outline-1" aria-hidden="true">
-                    How I work
+                    Comment je travaille
                   </span>
-                  <span className="text-outline">How I work</span>
+                  <span className="text-outline">Comment je travaille</span>
                 </h2>
 
                 <Services />

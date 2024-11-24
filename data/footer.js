@@ -13,19 +13,15 @@ export const footerLinks2 = [
 
 export const socialLinks = [
   {
-    href: "#",
-    text: "Instagram",
+    href: "https://github.com/AdisonPDO",
+    text: "Github",
   },
   {
-    href: "#",
-    text: "Facebook",
-  },
-  {
-    href: "#",
+    href: "https://www.youtube.com/@adisonpereira1962",
     text: "YouTube",
   },
   {
-    href: "#",
+    href: "https://www.linkedin.com/in/adison-pereira-de-oliveira/",
     text: "LinkedIn",
   },
 ];

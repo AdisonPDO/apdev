@@ -1,18 +1,19 @@
 export const education = [
   {
     id: 1,
-    year: "2017 — 2018",
-    title: "Master Degree in Visual Communications",
-    institution: "California Institute of Technology",
+    year: "2021 — 2024",
+    title: "Architecte logiciel (Bac+5)",
+    institution: "Epitech",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras urna dolor, laoreet rhoncus volutpat et, iaculis a felis. Ut iaculis, ipsum sed dignissim porta, dolor sapien imperdiet libero, vitae convallis dui nulla nec urna. Sed malesuada volutpat tortor vitae ultricies.",
+        "Formation approfondie en conception et architecture de logiciels, avec une spécialisation en Big Data et Intelligence Artificielle. Ce cursus m’a permis de maîtriser les technologies avancées pour développer des solutions innovantes et évolutives.",
   },
   {
     id: 2,
-    year: "2015 — 2017",
-    title: "Bachelor in Computer Science",
-    institution: "Massachusetts Institute of Technology",
+    year: "2019",
+    title: "Développeur web & mobile (Bac+2)",
+    institution: "Simplon",
     description:
-      "Morbi libero ipsum, tempus ac aliquam ut, tincidunt id orci. Nam commodo consequat felis in condimentum. Sed enim urna, sagittis ut turpis sed, sodales euismod lorem. Pellentesque varius et mi nec efficitur lorem ipsum.",
+        "Programme intensif axé sur le développement d’applications web et mobiles. J'y ai acquis une expertise pratique en JavaScript, React, et d'autres technologies modernes, ainsi qu'une approche agile pour mener à bien des projets numériques.",
   },
 ];
+

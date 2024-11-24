@@ -47,7 +47,7 @@ export default function Footer2() {
             onClick={scrollToTop}
           >
             <a href="#top" className="fw-top-link">
-              <span className="fw-top-link-underline">Back to top</span>
+              <span className="fw-top-link-underline">Retour en haut</span>
               <span className="icon ms-1">
                 <i className="icon-arrow-up1 size-22" />
               </span>

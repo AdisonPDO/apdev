@@ -19,10 +19,9 @@ const ParallaxContainer = dynamic(
   }
 );
 export const metadata = {
-  title:
-    "Bold About || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "À propos - Développeur web et mobile à Perpignan",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+      "Découvrez mon parcours, mes compétences et ma passion pour le développement de sites web, d'applications mobiles et le SEO, au service de vos projets numériques.",
 };
 
 const dark = false;
@@ -50,7 +49,7 @@ export default function BoldAboutPage() {
                       className="wow charsAnimInLong-1"
                       data-splitting="chars"
                     >
-                      <AnimatedText text="About Me" />
+                      <AnimatedText text="Qui suis-je ?" />
                     </span>
                   </h1>
                 </div>
@@ -69,7 +68,7 @@ export default function BoldAboutPage() {
                       <Image
                         width={800}
                         height={1095}
-                        src="/assets/images/demo-bold/section-image-1.jpg"
+                        src="/assets/images/about.jpg"
                         className="w-100 wow scaleOutIn"
                         alt="Image Description"
                       />
@@ -79,23 +78,17 @@ export default function BoldAboutPage() {
                     <div className="wow fadeInUp">
                       <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-50 mb-md-30">
                         <span className="text-outline-2" aria-hidden="true">
-                          My Story
+                          Mon histoire
                         </span>
                         <span className="text-outline-1" aria-hidden="true">
-                          My Story
+                          Mon histoire
                         </span>
-                        <span className="text-outline">My Story</span>
+                        <span className="text-outline">Mon histoire</span>
                       </h2>
                       <p className="section-text mb-60 mb-md-40 mb-sm-30">
-                        <span className="section-title-inline">Qui?</span> The
-                        role of the graphic designer in the communication
-                        process is that of encoder or interpreter of&nbsp;the
-                        message. They work on the interpretation, ordering, and
-                        presentation of visual messages. The design work always
-                        starts from a client's demand, a demand that ends up
-                        being established linguistically, either orally or in
-                        writing, that is, that graphic design transforms a
-                        linguistic message into a graphic manifestation.
+                        <span className="section-title-inline">Qui?</span> Développeur passionné depuis plus de 6 ans, je combine expertise technique et créativité pour donner vie à des projets ambitieux. Diplômé en développement web et mobile (Bac+2), chef de projet en développement (Bac+3), et architecte logiciel spécialisé en Big Data et IA (Bac+5), j'apporte des solutions innovantes et sur mesure à mes clients.
+
+                        Grand amateur de sport, je puise mon énergie dans le padel, le trail et les courses d'obstacles. Cette passion pour le dépassement de soi se reflète dans ma manière de mener mes projets : je les vis à 200 %, avec la même intensité que ceux de mes clients, pour garantir des résultats exceptionnels.
                       </p>
                       <div className="local-scroll">
                         <Link
@@ -104,15 +97,15 @@ export default function BoldAboutPage() {
                           data-link-animate="y"
                         >
                           <span className="link-strong link-strong-unhovered">
-                            View Services{" "}
-                            <span className="visually-hidden">about us</span>
+                            Voir les services{" "}
+                            <span className="visually-hidden">À propos</span>
                           </span>
                           <span
                             className="link-strong link-strong-hovered"
                             aria-hidden="true"
                           >
-                            View Services{" "}
-                            <span className="visually-hidden">about us</span>
+                            Voir les services{" "}
+                            <span className="visually-hidden">À propos</span>
                           </span>
                         </Link>
                       </div>
@@ -193,42 +186,14 @@ export default function BoldAboutPage() {
                   <hr className="mt-40 mb-0" />
                 </div>
               </section>
-              <section
-                className="page-section bg-light-alpha-90 parallax-5"
-                style={{
-                  backgroundImage:
-                    "url(/assets/images/demo-slick/section-bg-1.jpg)",
-                }}
-              >
-                <div className="container position-relative">
-                  {/* Numbers Grid */}
-                  <div className="row mt-n30 wow fadeInUp">
-                    {/* Numbers Item */}
-                    {numberData.map((item, index) => (
-                      <div
-                        key={index}
-                        className="col-sm-6 col-xl-3 d-flex align-items-stretch mt-30"
-                      >
-                        <div className="number-2-item circle-large">
-                          <div className="number-2-title">{item.title}</div>
-                          <div className="number-2-descr">
-                            {item.description}
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                    {/* End Numbers Item */}
-                  </div>
-                  {/* End Numbers Grid */}
-                </div>
-              </section>
-              <section
+
+              {/*<section
                 className={`page-section  ${
                   dark ? "bg-dark-1 light-content" : ""
                 } `}
               >
                 <Testimonials />
-              </section>
+              </section>*/}
             </>
           </main>
           <footer className="footer-1 bg-dark-1 light-content">

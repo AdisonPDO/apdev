@@ -31,8 +31,7 @@ export default function Portfolio({ desc }) {
         <div className="col-lg-5 mb-md-30">
           {desc ? (
               <p className="section-text mb-0">
-                <span className="section-title-inline">Bonjour !</span> Découvrez des solutions innovantes pour
-                développer votre présence en ligne, attirer vos clients et renforcer votre marque.
+                <span className="section-title-inline">Bienvenue !</span> Plongez dans mes réalisations et découvrez comment j'ai aidé mes clients à transformer leurs idées en projets numériques réussis. Sites web, applications mobiles, SEO : chaque projet raconte une histoire unique.
               </p>
           ) : (
               <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-0">
